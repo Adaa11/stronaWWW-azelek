@@ -33,6 +33,69 @@ body {
 	padding-left: 10px;
 	text-align: center;
 }
+#MENU ol {
+        list-style-type:none;
+        padding:0 100px;
+        margin:0;
+        font-size:18px;
+        height:2em;
+        line-height:2em;
+        text-align:center;
+      }
+#MENU ol a {
+        display:block;
+        text-decoration:none;
+        color:#000;
+        padding:0 5px;
+      }
+#MENU ol > li {
+        float:LEFT;
+        width:150px;
+        margin-left:1px;
+        background-color:#FDD700;
+        height:2em;
+      }
+#MENU ol > li:first-child {
+        margin-left:5px;
+      }
+#MENU ol > li:hover {
+        background-color:#FFFF66;
+      }
+
+   
+#MENU ol > li:hover > a {
+        color:#09C;
+      }
+
+      
+#MENU ol > li:hover > ul {
+        display:block;
+      }
+
+
+#MENU ol > li > ul {
+        display:none;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+
+#MENU ol > li > ul > li {
+        position:relative;
+        background-color:#FFFF66;
+      }
+
+#MENU ol > li > ul > li > a {
+        border-top:1px solid #FFF;
+      }
+
+#MENU ol > li > ul > li:hover {
+        background-color:#FFCC66;
+      }
+     
+#MENU ol > li > ul > li:hover > a {
+        color:#09C;
+      }
 #LINKI {
 	width: 150px;
 	overflow: hidden;
