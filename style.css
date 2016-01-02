@@ -18,3 +18,26 @@ body {
 	margin: 0 10px;
 	width: 1000px;
 }
+#MENU {
+	font-size: 16px;
+	font-family: Verdana;
+	color: #000033;
+	background-color: #FF6633 ;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+	text-align: center;
+}
+#LINKI {
+	width: 150px;
+	overflow: hidden;
+	float: left;
+    position:relative;
+
+  
+}
