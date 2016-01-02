@@ -18,6 +18,17 @@ body {
 	margin: 0 10px;
 	width: 1000px;
 }
+#LOGO {
+	font-size: 36px;
+	font-family: Verdana;
+	color: #000000;
+    background:url(images/logo.jpeg);
+	width:1000px;
+	height:400px;
+	margin-top:10px;
+}
+
+
 #MENU {
 	font-size: 16px;
 	font-family: Verdana;
@@ -96,54 +107,22 @@ body {
 #MENU ol > li > ul > li:hover > a {
         color:#09C;
       }
-#LINKI {
-	width: 150px;
-	overflow: hidden;
-	float: left;
-    position:relative;
-}
-#LINKI .NAGLOWEK {
-	margin-top: 0px;
-	margin-right: 10px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	font-size: 14px;
-	font-family: Verdana;
-	color: #FFFFFF;
-	background-color: #FF6633;
-	padding-top: 5px;
-	padding-right: 10px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	text-align: center;
-	font-weight: bold;
-}
 
-#LINKI .ZAWARTOSC {
-	margin-top: 0px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	margin-left: 0px;
+#TRESC {
+	width: 800px;
+	overflow: hidden;
+	margin-left: 100px;
+	float: left;
+}
+#TRESC .ZAWARTOSC {
 	font-size: 12px;
 	font-family: Verdana;
 	color: #000000;
 	background-color: #FFFFFF;
-	padding-top: 5px;
-	padding-right: 0px;
-	padding-bottom: 10px;
-	padding-left: 0px;
-}
-#LINKI .ZAWARTOSC ul li {
-	display: block;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-    line-height:1cm;
-}
-#TRESC {
-	width: 800px;
-	overflow: hidden;
-	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	padding-left: 10px;
 }
 #STOPKA {
 	font-size: 11px;
