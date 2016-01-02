@@ -1,0 +1,72 @@
+<html>
+<head>
+
+<meta charset="UTF-8" />
+<title>Czas na bieganie!</title>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="top">
+	<div id="BODY">
+		<div id="LOGO"></div>
+		<div id="MENU">
+		<ol>
+    <li><a href="index.html">HOME</a> </li>
+    <li><a href="pierwsze_kroki.html">Pierwsze kroki</a>
+        <ul>
+        <li><a href="gdzie_biegac.html">Gdzie biegać?</a></li>
+      </ul></li>
+    <li><a href="dieta.html">Dieta</a></li>
+   <li><a href="maratony.html">Maratony</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+  </ol>	
+		</div>
+		
+		
+		<div id="TRESC">
+		<div class="ZAWARTOSC">
+			<h1>Kontakt</h1>
+<p>Masz pytania? Napisz do nas!</p><br /> 
+            <div id="dialog">
+               <p id="dialog_p"></p>
+             </div>
+
+<form action="wyslano.htm" method="post" id="formularz" onsubmit="return sprawdz()" >
+<div >
+	 
+    <label>Imię: <input type="text" name="imie" id="imie"/></label>
+	<label>Nazwisko: <input type="text" name="nazwisko" id="nazwisko" /></label>
+    <label>Wiek:
+    <select name="wiek">
+	<option>mniej niż 18</option>
+	<option>18-25</option>
+	<option>26-35</option>
+	<option>36-45</option>
+	<option>46-56</option>
+	<option>więcej niż 56</option>
+    </select></label>
+    Płeć:
+     <label>M<input type="radio" name="plec" value="m" /></label>
+     <label>K<input type="radio" name="plec" value="k" /></label><br /><br />
+    <label>E-mail: <input type="text" name="e_mail" id="e_mail" /></label><br />
+    
+    <h3 class="small">Temat wiadomości:</h3>
+	<label><input type="checkbox" name="temat" value="Jak zacząć biegać?" id="temat1" />Jak zacząć biegać?</label><br />
+    <label><input type="checkbox" name="temat" value="Dieta" id="temat2" />Dieta</label><br />
+    <label><input type="checkbox" name="temat" value="Sprzęt" id="temat3"/>Sprzęt</label><br /><br />
+    <textarea name="message" cols="30" rows="10" >Wpisz tekst wiadomości...</textarea><br />
+	<input type="submit"  value="Ok" />
+    <input type="reset" value="Reset"/>
+</div>
+</form> 
+
+		</div>
+		</div>
+		<div id="STOPKA">Czas na bieganie-Adrianna Zelek<a href="mailto:adaz11@onet.eu">(e-mail)</a></div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
