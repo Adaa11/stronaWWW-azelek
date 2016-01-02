@@ -46,7 +46,7 @@ body {
 }
 #MENU ol {
         list-style-type:none;
-        padding:0 100px;
+        padding:0 50px;
         margin:0;
         font-size:18px;
         height:2em;
@@ -61,7 +61,7 @@ body {
       }
 #MENU ol > li {
         float:LEFT;
-        width:150px;
+        width:140px;
         margin-left:1px;
         background-color:#FDD700;
         height:2em;
