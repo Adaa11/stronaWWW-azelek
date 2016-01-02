@@ -38,6 +38,25 @@ body {
 	overflow: hidden;
 	float: left;
     position:relative;
-
-  
+}
+#TRESC {
+	width: 800px;
+	overflow: hidden;
+	float: left;
+}
+#STOPKA {
+	font-size: 11px;
+	font-family: Verdana;
+	color: #000000;
+	background-color: #FF6633;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	text-align: center;
+	clear: both;
 }
